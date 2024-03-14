@@ -5,13 +5,13 @@
 #include "addons/TokenHelper.h"
 #include "addons/RTDBHelper.h"
 
-#define WIFI_SSID "PONDOK DIEMA 2"
-#define WIFI_PASSWORD "pondokdiema2"
+#define WIFI_SSID "nama wifi"
+#define WIFI_PASSWORD "pasword wifi"
 
-#define API_KEY "AIzaSyAvgjiIdi7BPa8G2-k_HM0r6pw99lJ-L5Y"
+#define API_KEY "api key"
 
 // Insert RTDB URLefine the RTDB URL */
-#define DATABASE_URL "https://tesuplod-1c7af-default-rtdb.asia-southeast1.firebasedatabase.app" 
+#define DATABASE_URL "url" 
 
 FirebaseData fbdo;
 FirebaseAuth auth;

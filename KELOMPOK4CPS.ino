@@ -4,8 +4,8 @@
 LiquidCrystal_I2C lcd = LiquidCrystal_I2C(0x27, 16, 2);
 const int pinSensor =A0;
 const int BUZZER = D8;
-int sensorpir = 10;
-int ledpin = 12;
+int sensorpir = D7;
+int ledpin = D6;
 
 
 // Set-Up LCD
@@ -52,7 +52,7 @@ void loop() {
  }
 
  //PIR
- int value = digitalRead(sensorpir);
+ bool value = digitalRead(sensorpir);
  digitalWrite (ledpin, value);
 
  //LCD

@@ -13,7 +13,7 @@ void setLCD() {
  lcd.init();
  lcd.backlight();
  lcd.clear();
- lcd.print("ACAY");
+ lcd.print("AANG");
  lcd.setCursor(0, 1);
  lcd.print("APPA");
 }

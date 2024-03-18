@@ -1,0 +1,28 @@
+.data-container {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(122, 122, 122, 0.526); 
+  border-radius: 10px; 
+  width: 80%; 
+  max-width: 600px; 
+
+  @media (max-width: 768px) {
+    width: 90%; 
+    padding: 10px; 
+  }
+}
+
+.text-center {
+  color: rgba(240, 240, 240, 0.7);
+  font-size: 3em;
+}
+
+@media (max-width: 768px) {
+  .text-center {
+    font-size: 2em; 
+  }
+}
+
+.appa{
+  color: rgba(240, 248, 255, 0);
+}

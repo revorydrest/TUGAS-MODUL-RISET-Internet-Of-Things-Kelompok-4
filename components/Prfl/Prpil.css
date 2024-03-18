@@ -1,0 +1,64 @@
+.team-profile {
+    text-align: center;
+    margin-top: 50px; 
+}
+
+.team-title {
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: rgb(214, 210, 210);
+    margin-bottom: 50px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+.team-member {
+    margin: 20px;
+}
+
+.team-member img {
+    width: 200px; 
+    height: auto; 
+    border-radius: 50%;
+    cursor: pointer; 
+}
+
+.team-member p {
+    margin-top: 10px;
+    color: #d9d9d9; 
+    font-size: 20px; 
+    font-weight: bold; 
+    transition: color 0.3s; 
+}
+
+.team-member p:hover {
+    color: rgb(139, 133, 133);
+    cursor: pointer; 
+}
+
+.duar {
+    color: rgb(0, 0, 0);
+}
+
+.react-responsive-modal-modal {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px; 
+    border-radius: 10px; 
+    max-width: 500px; 
+}
+
+.react-responsive-modal-modal h2 {
+    font-size: 28px; 
+    margin-bottom: 15px; 
+}
+
+.react-responsive-modal-modal p {
+    font-size: 18px; 
+    line-height: 1.5; 
+    margin-bottom: 15px; 
+    text-align: left; 
+}
